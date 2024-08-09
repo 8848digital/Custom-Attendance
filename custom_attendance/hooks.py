@@ -9,11 +9,11 @@ app_license = "mit"
 # Includes in <head>
 # ------------------
 fixtures = [
-    {
-        "dt": "Custom Field",
-        "filters": [["module", "in", ["Custom Attendance"]]],
-    },
-    {"dt": "Property Setter", "filters": [["module", "in", ["Custom Attendance"]]]},
+	{
+		"dt": "Custom Field",
+		"filters": [["module", "in", ["Custom Attendance"]]],
+	},
+	{"dt": "Property Setter", "filters": [["module", "in", ["Custom Attendance"]]]},
 ]
 # include js, css files in header of desk.html
 # app_include_css = "/assets/custom_attendance/css/custom_attendance.css"
