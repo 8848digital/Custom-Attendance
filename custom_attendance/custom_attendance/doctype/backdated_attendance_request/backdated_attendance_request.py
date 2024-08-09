@@ -5,8 +5,7 @@ import frappe
 from erpnext.setup.doctype.employee.employee import is_holiday
 from frappe import _
 from frappe.model.document import Document
-from frappe.utils import (add_days, date_diff, format_date, get_link_to_form,
-                          getdate)
+from frappe.utils import add_days, date_diff, format_date, get_link_to_form, getdate
 from hrms.hr.utils import validate_active_employee, validate_dates
 
 
